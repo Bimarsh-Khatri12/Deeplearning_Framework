@@ -1,5 +1,6 @@
 This project involves prediction of streamflow in multiple time series.This project aims to predict daily streamflow values using a Long Short-Term Memory (LSTM) neural network. It leverages weather and soil data to model the time series patterns and predict future streamflow values effectively.
 The approach for the project involves following steps:
+
 **1. Data Preprocessing:**
 -Selected relevant features from the dataset (e.g., temperature, pressure, precipitation, etc.).
 -Encoded the date feature numerically for processing.
@@ -19,3 +20,5 @@ The approach for the project involves following steps:
 **Feature Engineering:** Incorporated weather-related attributes for predicting streamflow.
 **Time Series Modeling:** Used LSTM to learn sequential patterns and make forecasts.
 **Evaluation Metrics:** Assessed the model's accuracy with MSE and visualized predictions with line plots.
+
+**Note: The dataset used here is real dataset collected from different checkpoint of a streamflow in Nepal**
